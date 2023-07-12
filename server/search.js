@@ -15,7 +15,7 @@ module.exports = {
     }
 
     return client.search({ index, type, body })
-  }
+  },
   /** Get the specified range of paragraphs from a book */
 getParagraphs (bookTitle, startLocation, endLocation) {
   const filter = [
